@@ -33,7 +33,7 @@ export default function PostsContainer() {
                 return <div className="card" key={item.id}><Post data={item} /></div>
             })
         }
-        <InfiniteScroll onTrigger={loadMore} />
+        <InfiniteScroll onTrigger={loadMore} timeout={2000} />
         {
             lastPost === pagination
             ? (<h2><NoMoreContent /></h2>)
