@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+    border: 2px solid black;
+    border-radius: .25em;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
