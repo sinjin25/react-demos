@@ -30,3 +30,10 @@ export function getPosts() {
     .then(simplyReturnData)
     .catch(pushErrorUp)
 }
+
+export function getAPost(id) {
+    return fetch(POSTS+'/'+id)
+    .then(requestIsOkay)
+    .then(simplyReturnData)
+    .catch(pushErrorUp)
+}
