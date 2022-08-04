@@ -43,4 +43,28 @@
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 1.5rem;
+    padding: 0 2em;
+}
+
+.nav {
+    padding: .5rem 1rem;
+}
+.nav a {
+    border: 1px solid transparent;
+    border-radius: 0.25em;
+    padding: 5px;
+}
+.nav a.active {
+    border-color: purple;
+}
+
+a {
+    color: #242424;
+    text-decoration: none;
+}
+a + a {
+    margin-left: .5em;
+}
+a.active {
+    color: purple;
 }
