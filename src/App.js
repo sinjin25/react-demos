@@ -8,12 +8,14 @@ import Article from './pages/article';
 function App() {
   return (
     <Router>
-        <Navigation />
-        <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/breaking" element={<Breaking />} />
-            <Route path="/articles/:id" element={<Article />} />
-        </Routes>
+        <div id="app">
+            <Navigation />
+            <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/breaking" element={<Breaking />} />
+                <Route path="/articles/:id" element={<Article />} />
+            </Routes>
+        </div>
     </Router>
   );
 }

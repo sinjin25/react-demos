@@ -44,6 +44,17 @@
     margin: 0 auto;
     margin-bottom: 1.5rem;
     padding: 0 2em;
+    display: block;
+}
+.card p, .card pre {
+    max-width: none;
+}
+
+.break {
+    margin: .5rem 0;
+    min-height: 1rem;
+    border-top: 2px solid black;
+    min-width: 100%;
 }
 
 .nav {
@@ -67,4 +78,8 @@ a + a {
 }
 a.active {
     color: purple;
+}
+
+p {
+    max-width: 60ch;
 }
